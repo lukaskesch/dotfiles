@@ -1,0 +1,10 @@
+*
+!*/
+!.gitignore
+!karabiner/**
+!iterm2/**
+!nvim/**
+!tmux/**
+!zsh/**
+!git/**
+!dygma/**
