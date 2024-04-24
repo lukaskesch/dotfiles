@@ -29,6 +29,14 @@ vim.keymap.set('n', '<leader>qp', ':cprev<CR>', { noremap = true, silent = true 
 vim.keymap.set('n', '<leader>qf', ':cfirst<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>ql', ':clast<CR>', { noremap = true, silent = true })
 
+-- Jumplist
+vim.keymap.set('n', '<leader>jj', ':jumps<CR>', { noremap = true, silent = true })
+
+-- Changelist
+vim.keymap.set('n', '<leader>cc', ':changes<CR>', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>cn', 'g;', { noremap = true, silent = true })
+vim.keymap.set('n', '<leader>cp', 'g,', { noremap = true, silent = true })
+
 -- Git
 vim.keymap.set('n', '<leader>gg', ':G <CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<leader>gS', ':G status<CR>', { noremap = true, silent = true })
